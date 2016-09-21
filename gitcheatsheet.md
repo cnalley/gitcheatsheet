@@ -1,8 +1,9 @@
 #Git Cheat Sheet
 
-You want to...
+You want to...  
 [Create a Pull Request](#anchor1)  
 [Create Some New Stuff and Add to a Remote Repo] (#anchor2)  
+[Undo Things!](#anchor3)  
 
 <a name="anchor1"></a>
 ##Create a Pull Request  
@@ -26,4 +27,16 @@ git log → check the commit log
 git remote add origin [Repo URL]  
 git push origin master  
 git remote -v → shows you the URL that git has stored for the shortname to be used when reading and writing to that remote  
+
+<a name="anchor3"></a>
+##Undo Things! 
+####Undo a "public" commit   
+git revert <SHA> → Create a new commit that's the opposite of the specified commit  
+git push → Need to push the new inverse commit  
+####Undo a "local" commit  
+git reset <SHA> → Undo the commit but keep the change on disk 
+git reset --hard <SHA> → Undo the commit and revert the change on disk  
+[How to undo almost anything with Git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)  
+
+
 
