@@ -34,8 +34,9 @@ git remote -v → shows you the URL that git has stored for the shortname to be 
 git revert <SHA> → Create a new commit that's the opposite of the specified commit  
 git push → Need to push the new inverse commit  
 ####Undo a "local" commit  
-git reset <SHA> → Undo the commit but keep the change on disk 
+git reset <SHA> → Undo the commit but keep the change on disk  
 git reset --hard <SHA> → Undo the commit and revert the change on disk  
+####Undo almost anything  
 [How to undo almost anything with Git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)  
 
 
