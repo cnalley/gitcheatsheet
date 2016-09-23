@@ -4,6 +4,7 @@ You want to...
 [Create a Pull Request](#anchor1)  
 [Create Some New Stuff and Add to a Remote Repo] (#anchor2)  
 [Undo Things!](#anchor3)  
+[Check and Change the Current Terminal User](#anchor4)    
 
 <a name="anchor1"></a>
 ##Create a Pull Request  
@@ -38,6 +39,12 @@ git reset <SHA> → Undo the commit but keep the change on disk
 git reset --hard <SHA> → Undo the commit and revert the change on disk  
 ####Undo almost anything  
 [How to undo almost anything with Git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)  
+
+<a name="anchor4"></a>  
+##Check and Change the Current Terminal User  
+git config --list → Check the current user  
+
+
 
 
 
