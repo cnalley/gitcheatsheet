@@ -5,6 +5,7 @@ You want to...
 [Create Some New Stuff and Add to a Remote Repo] (#anchor2)  
 [Undo Things!](#anchor3)  
 [Check and Change the Current Terminal User](#anchor4)    
+[Switch Between Branches](#anchor5)  
 
 <a name="anchor1"></a>
 ##Create a Pull Request  
@@ -44,6 +45,10 @@ git reset --hard <SHA> → Undo the commit and revert the change on disk
 ##Check and Change the Current Terminal User  
 git config --list → Check the current user  
 
+<a name="anchor5"></a>  
+##Switch Between Branches
+git checkout [branch name] → Checkout an existing branch
+git branch → Show all current branches
 
 
 
