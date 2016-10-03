@@ -42,13 +42,13 @@ git reset --hard <SHA> → Undo the commit and revert the change on disk
 [How to undo almost anything with Git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)  
 
 <a name="anchor4"></a>  
-##Check and Change the Current Terminal User  
-git config --list → Check the current user  
+##Check and Change the Current Terminal User    
+git config --list → Check the current user    
 
 <a name="anchor5"></a>  
-##Switch Between Branches
-git checkout [branch name] → Checkout an existing branch
-git branch → Show all current branches
+##Switch Between Branches 
+git checkout [branch name] → Checkout an existing branch  
+git branch → Show all current branches  
 
 
 
